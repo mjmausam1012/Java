@@ -34,7 +34,6 @@ class encapsulation {
         return Roll;
     }
 
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -48,8 +47,7 @@ class encapsulation {
         encapsulation obj = new encapsulation(name, mob, roll);
 
         System.out.println("\nShow your Student Details: ");
-        System.out.println("Name: "+obj.getName()+ "\nRoll: "+obj.getRoll()+ "\nMob: "+obj.getMob());
-
+        System.out.println("Name: " + obj.getName() + "\nRoll: " + obj.getRoll() + "\nMob: " + obj.getMob());
 
         scan.close();
 

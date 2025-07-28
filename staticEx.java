@@ -11,7 +11,6 @@ class staticEx {
         obj.inner();
     }
 
-
     static class inner {
         public static void inner() {
             System.out.println("Mausam Kumar");

@@ -7,14 +7,14 @@ class array {
         int[] arr = new int[10];
 
         System.out.println("Enter an Integer value: ");
-        if (scan.hasNextInt()){
-            for(int i=0; i<arr.length; i++){
+        if (scan.hasNextInt()) {
+            for (int i = 0; i < arr.length; i++) {
                 arr[i] = scan.nextInt();
             }
         }
 
         System.out.println("\nStored Array Values...");
-        for(int val : arr) {
+        for (int val : arr) {
             System.out.println(val);
         }
 

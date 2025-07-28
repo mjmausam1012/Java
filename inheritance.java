@@ -4,7 +4,7 @@ class Student {
         System.out.println("Roll No.: 101");
         System.out.println("Mob: 6203826355");
     }
-    
+
 }
 
 class Teacher extends Student {
@@ -13,7 +13,7 @@ class Teacher extends Student {
         System.out.println("Id: 23104");
         System.out.println("Mob: 9621228161");
     }
-    
+
 }
 
 public class inheritance {

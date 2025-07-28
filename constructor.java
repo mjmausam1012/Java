@@ -28,7 +28,8 @@ class constructor {
         constructor obj = new constructor(name, roll, course, mob);
 
         System.out.println("Show your Details...");
-        System.err.println("Name: " + obj.name + "\nRoll: " + obj.roll + "\nCourse: " + obj.course + "\nMob: " + obj.mob);
+        System.err
+                .println("Name: " + obj.name + "\nRoll: " + obj.roll + "\nCourse: " + obj.course + "\nMob: " + obj.mob);
 
         scan.close();
     }
